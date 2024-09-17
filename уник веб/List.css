@@ -1,0 +1,39 @@
+body {
+    background-color: #FF9247;
+}
+
+body ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #FF9247;
+    color: #FFF4E5;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+button:hover,
+.active {
+    background: #32B29D;
+    
+}
+ul,dl,li,ul li,ol{
+    color: #FFF4E5;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+select{
+    background-color: #FF9247;
+    border-color: #32B29D;
+    border: 20px;
+    color: #ffffff;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//List.css">
+    <title>List</title>
+</head>
+<body>
+    <ui>
+        <button onclick="window.location = 'Home.html'">Home</button>
+        <button onclick="window.location = 'Table.html'">Table</button>
+        <button class=active disabled onclick="window.location = 'List.html'">List</button>
+        <button onclick="window.location = 'Poem.html'">Poem</button>
+        <button onclick="window.location = 'Picture.html'">Picture</button>
+
+    </ui>
+    <select>
+        <option value="">Легко</option>
+        <option value="">Нормально</option>
+        <option value="">Сложно</option>
+    </select>
+    <h1 class="spi">Список 9 друзей</h1>
+    <ul type="square">Город
+        <li>Саратов</li>
+        <ul type="disc">Фамилия
+            <li>Гарь</li>
+            <ol type="A" start="4"> Имя
+                <li>Гарик</li>
+                <li>Дима</li>
+                <li>Катя</li>
+            </ol>
+        </ul>
+        <li>Мешок</li>
+        <li>Торина</li>
+    </ul>
+    <li>Москава</li>
+    <li>Питер</li>
+    </ul>
+    <dl>Банановая делема
+        <dt>Банан</dt>
+        <dd>-это ягода...</dd>
+        <dd>-это фрукт...</dd>
+</body>
+</html>

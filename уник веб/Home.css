@@ -1,0 +1,37 @@
+body {
+    background-color: #FF9247;
+}
+
+body ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #FF9247;
+    color: #FFF4E5;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+button:hover,
+.active {
+    background: #32B29D;
+    
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 150px;
+    border: #32B29D;
+    font-size: 100px;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 30px;
+}
